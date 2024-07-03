@@ -1,0 +1,73 @@
+body{
+	
+	background-color: lightgreen	;
+}
+.navv{
+	display: grid;
+	grid-template-rows:1fr 5fr 4fr;
+	grid-template-columns:  1fr ;
+	grid-gap: 20px;
+	padding: 20px;
+	margin: 0 15px;
+
+}
+.topp{
+	
+	display: flex;
+	background-color: lightgreen;
+	justify-content:;
+	
+}
+.push-right{
+	margin-left: auto;
+	display:flex;
+}
+
+
+button{
+	background-color: lightgreen;
+	border:2px solid lightgreen;
+
+}
+
+.bodyy{
+	background-color: lightblue;
+	grid-column: auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border-radius:100px;
+}
+
+.objects{
+	background-color: wheat	;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(	auto-fill	, min(100px, 1fr));
+	grid-gap: 8px;
+	padding: 20px;
+	padding-bottom: 30px;
+	border-radius: 100px;
+
+}
+.odj{
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	background-color: #7D8ABC;
+	border: 4px #3FA2F6;
+	border-radius: 100px;
+	height: 90px;
+	width: 200px;
+	transform: scale(1.05) 2s ;
+	grid-template-columns: 	1/3;
+transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.odj:hover{
+
+	 transform: scale(1.06);
+            background-color: #6a5acd;
+}
+
